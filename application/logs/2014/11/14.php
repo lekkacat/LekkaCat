@@ -187,3 +187,7 @@
 #3 /var/www/happacat/system/classes/Kohana/Request.php(986): Kohana_Request_Client->execute(Object(Request))
 #4 /var/www/happacat/index.php(118): Kohana_Request->execute()
 #5 {main} in /var/www/happacat/application/classes/HTTP/Exception/404.php:17
+2014-11-14 10:23:37 --- EMERGENCY: Kohana_Exception [ 0 ]: Attempted to load an invalid or missing module 'userguide' at 'MODPATH/userguide' ~ SYSPATH/classes/Kohana/Core.php [ 579 ] in /var/www/LekkaCat/application/bootstrap.php:132
+2014-11-14 10:23:37 --- DEBUG: #0 /var/www/LekkaCat/application/bootstrap.php(132): Kohana_Core::modules(Array)
+#1 /var/www/LekkaCat/index.php(102): require('/var/www/LekkaC...')
+#2 {main} in /var/www/LekkaCat/application/bootstrap.php:132

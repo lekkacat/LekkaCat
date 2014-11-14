@@ -103,7 +103,7 @@ if (isset($_SERVER['KOHANA_ENV']))
  * - boolean  expose      set the X-Powered-By header                        FALSE
  */
 Kohana::init(array(
-	'base_url'   => '/happacat/',
+	'base_url'   => '/LekkaCat/',
 ));
 
 /**
@@ -128,7 +128,7 @@ Kohana::modules(array(
 	// 'minion'     => MODPATH.'minion',     // CLI Tasks
 	 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
 	// 'unittest'   => MODPATH.'unittest',   // Unit testing
-	'userguide'  => MODPATH.'userguide',  // User guide and API documentation
+	//'userguide'  => MODPATH.'userguide',  // User guide and API documentation
 	));
 
 /**
