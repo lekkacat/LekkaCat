@@ -6,7 +6,7 @@
 	url = git://github.com/kohana/database.git
 [submodule "modules/orm"]
 	path = modules/orm
-	url = git://github.com/kohana/database.git
+	url = git://github.com/kohana/orm.git
 [submodule "modules/image"]
 	path = modules/image
-	url = git://github.com/kohana/database.git
+	url = git://github.com/kohana/image.git
