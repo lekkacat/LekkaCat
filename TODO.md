@@ -6,3 +6,9 @@
 - Auth
 - Calculation function
 - Tags
+
+## Lekkacat v0.2
+- Ratings
+- Variations
+- Rev-Control
+- Comments 
